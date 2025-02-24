@@ -1,7 +1,5 @@
 # Laravel Auth Middlewares
 
-## Cases
-
 ### Auth Basic with a 'username' field
 
 To use Laravel's native Basic Authentication with a "username" instead of "email," you need to modify the `findForPassport` method in the `User` model to query by the `username` field. Additionally, you may need to customize the authentication logic by overriding the default `BasicAuth` controller or middleware. This allows you to change the authentication behavior while still using Laravel’s built-in Basic Authentication system.
