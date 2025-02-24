@@ -1,0 +1,19 @@
+{
+  "name": "platinumplace/laravel-auth-middlewares",
+  "type": "project",
+  "description": "Some useful auth middlewares",
+  "keywords": [
+    "Laravel",
+    "PHP",
+    "Auth"
+  ],
+  "license": "MIT",
+  "require": {
+    "php": "^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "AuthMiddlewares\\": "src/"
+    }
+  }
+}
